@@ -1,5 +1,7 @@
 package card
-import ""
+
+import "github.com/Shakhrukhjan/gitproject2/pkg/types"
+
 func Issue() types.Card {
 	return types.Card{
 		Balance:  0,
