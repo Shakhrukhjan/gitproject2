@@ -28,7 +28,7 @@ type Card struct {
 var LocalCard = Card{
 	Balance:  9000_00,
 	Currency: Dollars,
-	Type:     Gold,
+	Type:     Gold, 
 	Activity: Active,
 	cvv:      112,
 }
