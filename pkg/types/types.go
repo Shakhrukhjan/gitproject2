@@ -22,7 +22,7 @@ type Card struct {
 	Currency   Currency
 	Type       string
 	Activity   bool
-	cvv        int
+	cvv        int 
 }
 
 var LocalCard = Card{
