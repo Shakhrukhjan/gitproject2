@@ -15,14 +15,9 @@ type Transaction struct {
 }
 
 type Card struct {
-	Name       string
-	Pin        string
-	TrnHistory []Transaction
-	Balance    Money
-	Currency   Currency
-	Type       string
-	Activity   bool
-	cvv        int 
+	Balance  Money
+	Currency Currency
+	Activity bool
 }
 
 var LocalCard = Card{
